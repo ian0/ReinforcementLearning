@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "ae8498ca7cd55229",
+    "type": "split",
+    "children": [
+      {
+        "id": "9030ac3e637d4706",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Value Function.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "437ccdba9a26f8f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d759ea4e5f4b92a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba0aeff2e0b57acc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fda28002009fbd58",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "44b7680fda438f06",
+    "type": "split",
+    "children": [
+      {
+        "id": "593a63dbb368bdc5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9abdf8a50d17eb05",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Value Function.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9030ac3e637d4706",
+  "lastOpenFiles": [
+    "Value Function.md",
+    "Markov Decision Process.md",
+    "Policy.md",
+    "Markov Reward Processes.md",
+    "Bellman Equation.md",
+    "Markov Process.md",
+    "Reinforcement Learning Fundamentals - Notes on AI.md",
+    "Model Free Reinforcement Learning.md",
+    "Model Based Reinforcement Learning.md"
+  ]
+}
