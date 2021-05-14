@@ -17,17 +17,30 @@ How is it different from supervised learning setup?
 2.  RL algorithm are capable of multistep decision making i.e. perform a series of actions but supervised algorithms are capable of only single step prediction problem.
 3.  RL algorithms do not need huge amount of human labelled data like supervised learning algorithm, and are guided by the reward signal provided by the environment.
 
+
+## Markov Decision Processes
+[[Markov Decision Process]]
+
+## Planning by Dynamic Programming
+[[Dynamic Programming]]
+
 Here we describe the standard problem setup of reinforcement learning.
 
 ## Environment
+
+![[environment.png]]
 
 ### State
 
 State s is representation of a location in the environment. It contains data that is used by RL algorithm.
 
+![[state.png]]
+
 ### Action
 
 Action a is the possible response that could be performed while the agent is at any state. Agent's actions affects the subsequent data it receives.
+
+![[action.png]]
 
 ### Reward
 
@@ -37,9 +50,13 @@ The agent can prioritise over immediate or future reward. The return Rt\=∑k\=0
 
 The agent aims to maximize the expectation of such long term return from each state.
 
+![[reward.png]]
+
 ### Agent
 
 A RL agent interacts with the environment over time. It's job is to maximise total future reward as it performs different actions and lands in different state. It may include one or more of these components:
+
+![[agent.png]]
 
 ### Policy
 
@@ -63,28 +80,5 @@ RL algorithms are categorized as[[Model Free Reinforcement Learning]] and [[Mode
 
 To sum it up, at each timestep t the agent is on a state st, it performs action at by following a policy π(at|st), then receives a scalar reward rt according to reward function R(s,a) and transitions to next state st+1 according to state transition probability P(st+1|st,at).
 
-## Markov Decision Processes
-[[Markov Decision Process]]
 
-## Reinforcement Learning Ojective
 
-$$maximizeπEat∼π(⋅∣st)st+1∼p(⋅∣st,at)\[∑t\=0∞γtr(st,at)\]$$
-
-### The Value function
-$V^π(s)$ is the state-value function of MDP (Markov Decision Process). It's the expected return starting from state s following policy π.
-
-Gt is the total DISCOUNTED reward from time step t, as opposed to Rt which is an immediate return. Here you are taking the expectation of ALL actions according to the policy π.
-
-### The Q function
-Qπ(s,a) is the action-value function. It is the expected return starting from state s, following policy π, taking action a. It's focusing on the particular action at the particular state.
-
-The relationship between Qπ and Vπ (the value of being in that state) is
-
-You sum every action-value multiplied by the probability to take that action (the policy π(a∣s))
-
-### When to use V and Q
-Q-values are a great way to the make actions explicit so you can deal with problems where the transition function is not available (model-free). However, when your action-space is large, things are not so nice and Q-values are not so convenient. They are harder to compute in spaces with a huge number of actions or even continuous action-spaces.
-
-From a sampling perspective, the dimensionality of Q(s,a) is higher than V(s) so it might get harder to get enough (s,a) samples in comparison with (s). If you have access to the transition function sometimes V is good.
-
-There are also other uses where both are combined, for example [Actor-Critic](https://publish.obsidian.md/parasdahal/Actor-Critic) architectures.
