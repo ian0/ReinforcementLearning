@@ -4,14 +4,6 @@
 
 ## Dynamic Programming
 
-*Sections*
-- [[Policy Evaluation]]
-- [[Policy Iteration]]
- - [[Value Iteration]]
-- [[Extensions to Dynamic Programming]]
-
-Both Policy Iteration and Value Iteration are control problems, and both tell you have to get the maximium reward from the mdp.
-
 ### What is Dynamic Programming?
 
 Why is called Dynamic Programming?
@@ -20,34 +12,33 @@ dynamic - sequential or stepwise
 Programming in this case refers to a policy, its a tems from maths - 
 so its an optimisation method for solving complex sequential problems.
 
-It solves them by breaking them down into subproblems
+It solves problems by breaking them down into subproblems
 - Solve the subproblems
 - Combine solutions to subproblems
 
 Example: find the shortest path, can be broken into two pieces, find start to mid, find mid to end and combine.
 
-Subproblems recur many times
-solutions can be cached and reused
+Subproblems recur many times, so solutions can be cached and reused
 
-[[Markov Decision Process]] satisfy both properties
-- [[Bellman Equation]] gives recursive decomposition
-- [[Value Function]] stores and resuses solutions
+DP uses an explicit model. DP requires that you know $p(s′,r|s,a)$. The update rule for DP is the first [[Bellman Equation]] equation turned into an update rule:
 
-We can use Dynamic Programming to evaluate a policy, and then in an inner loop use this evaluation to find the optimal policy.  This evaluation is alos called planning.
-
-Planning by Dynamic Programming - We know everything about the MDP
-
-![[planning.png]]
-
-Dynamic programming is used to solve:
-- Scheduling and Graph algorithms (e.g. shortest path algorithms) and Graphical models (e.g. Viterbi algorithm)
-
-Methods from Dynamic Programming such as Policy Iteration and Value Iteration are known as Model Based Methods  [[Model Based Reinforcement Learning]]
+$$v_{k+1}(s) = {max}_{a} \sum\__{s',r} p(s',r|s,a)(r + \gamma v_{k}(s'))$$
 
 
-Summary of DP Algorithms
 
-![[sync-dynamic-prog.png]]
+There are two main methods of Dynamic Programming, [[Policy iteration]] and [[Value Iteration]]
 
-For large state spaces, Dynamic programming suffers from the [[Curse of Dimensionality]]
+In **Policy Iteration** \- You randomly select a policy and find [[Value Function]] corresponding to it , then find a new (improved) policy based on the previous value function, and so on this will lead to optimal policy .
+
+In **Value Iteration** \- You randomly select a [[Value Function]] , then find a new (improved) value function in an iterative process, until reaching the optimal value function , then derive optimal policy from that optimal value function .
+
+Both Policy Iteration and Value Iteration are control problems, and both tell you have to get the maximium reward from the mdp.
+
+We can view the algorithms side by side:
+
+![[Policy-vsValue-iter.png]]
+
+
+
+
 

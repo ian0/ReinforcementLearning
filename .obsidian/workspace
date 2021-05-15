@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "d955bc14d90f1802",
+        "id": "5b28664c6ce7ae71",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Deep Q-Networks.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "chain",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Deep Q-Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d955bc14d90f1802",
+  "active": "5b28664c6ce7ae71",
   "lastOpenFiles": [
+    "Deep Q-Networks.md",
+    "Deep Reinforcement Learning.md",
     "Reinforcement Learning.md",
-    "Markov Property.md",
-    "Markov Decision Process.md",
-    "Markov Process.md",
-    "Markov Chain.md",
-    "Policy.md",
-    "Dynamic Programming.md",
-    "Markov Reward Processes.md",
-    "Value Function.md",
-    "Value Iteration.md"
+    "Value-based vs Policy-based.md",
+    "Taxonomy.md",
+    "On-Policy Off-Policy.md",
+    "Model Based Reinforcement Learning.md",
+    "Model Free Reinforcement Learning.md",
+    "Exploration vs Exploitation.md",
+    "Temporal Difference.md"
   ]
 }

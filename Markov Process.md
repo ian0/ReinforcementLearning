@@ -9,7 +9,10 @@
 
 “The future is independent of the past given the present”
 
+
 "A stocastic model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event"
+
+here stocastic meand uncertaitity.  
 
 A **Markov process** is the continuous-time version of a **Markov chain**.
 
@@ -22,6 +25,8 @@ $$\Large P [S_{t+1} | S_{t} ] = P [S_{t+1} | S_{1}, ..., S_{t} ]$$
 - i.e. The state is a sufficient statistic of the future
 
 A Markov process is a sequence of states with the [[Markov Property]]
+
+you can turn alost anything into a Markovian Process by making sure the the current state in the model contains everything you need to remember from the past.  
 
 Each row of the matric in the State Transition Matrix completly characterises the transitions from one possible starting place in this Markov Process.  This single matrix gives the complete structure to this Markov Problem.
 

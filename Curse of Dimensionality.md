@@ -1,4 +1,4 @@
-#DynamicProgramming 
+[#DynamicProgramming](app://obsidian.md/index.html#DynamicProgramming)
 
 ## Curse of Dimensionality
 

@@ -1,11 +1,14 @@
 #mdp
 # Makov Decision Process
+[[Reinforcement Learning]]
 
 Decision Theoretic Mathematical framework for handling uncertainty
 
 ![[notes-mdp.png]]
 
 From the course notes:
+
+![[mdp-description.png]]
 
 State Action space formalism
 - A finite set of possible world states **S** (Fully/partially observable)
@@ -38,20 +41,4 @@ The game of the mdp is to find the best path through the decision making process
 
 To play the game of an mdp, we need to define what it means to take decisions.  To do that we define a [[Policy]]
 
-
-[[Value Function]]
-
-[[Policy]]
-
-
-### When to use V and Q
-
-Q-values are a great way to the make actions explicit so you can deal with problems where the transition function is not available (model-free). However, when your action-space is large, things are not so nice and Q-values are not so convenient. They are harder to compute in spaces with a huge number of actions or even continuous action-spaces.
-
-From a sampling perspective, the dimensionality of Q(s,a) is higher than V(s) so it might get harder to get enough (s,a) samples in comparison with (s). If you have access to the transition function sometimes V is good.
-
-There are also other uses where both are combined, for example [Actor-Critic](https://publish.obsidian.md/parasdahal/Actor-Critic) architectures.
-
-#### POMDPs 
-A Partially Observable Markov Decision Process is an MDP with
-hidden states. It is a hidden Markov model with actions.
+When we have a perfect model of the environmenr, we can use [[Dynamic Programming]] to compute the optimium [[Policy]]
