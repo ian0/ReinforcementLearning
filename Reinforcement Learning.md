@@ -62,6 +62,8 @@ Here we describe the standard problem setup of reinforcement learning.
 
 ### [[Deep Reinforcement Learning]]
 
+### [[Game Theory]]
+
 ### Model
 
 Model is the representation of how the agent thinks the environment works. It consists of:

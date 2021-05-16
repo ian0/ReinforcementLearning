@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Deep Q-Networks.md",
-            "mode": "preview"
+            "file": "Game Theory.md",
+            "mode": "source"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Q-Networks.md",
+                "file": "Game Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "5b28664c6ce7ae71",
   "lastOpenFiles": [
+    "Game Theory.md",
+    "Reinforcement Learning.md",
     "Deep Q-Networks.md",
     "Deep Reinforcement Learning.md",
-    "Reinforcement Learning.md",
     "Value-based vs Policy-based.md",
     "Taxonomy.md",
     "On-Policy Off-Policy.md",
     "Model Based Reinforcement Learning.md",
     "Model Free Reinforcement Learning.md",
-    "Exploration vs Exploitation.md",
-    "Temporal Difference.md"
+    "Exploration vs Exploitation.md"
   ]
 }
