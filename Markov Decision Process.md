@@ -2,20 +2,9 @@
 # Makov Decision Process
 [[Reinforcement Learning]]
 
-Decision Theoretic Mathematical framework for handling uncertainty
+An MDP is the standard mathematical formalism for describing agent environment interactions and how to model uncertainty.
 
-![[notes-mdp.png]]
-
-From the course notes:
-
-![[mdp-description.png]]
-
-State Action space formalism
-- A finite set of possible world states **S** (Fully/partially observable)
-- A discrete set of possible actions within each state **A(s)**
-- A real valued reward **R**
-- The probability of transitioning between states for a given action **T(s,a)**
-- Goal : Find the optimal policy π*
+[[State Action Space Formalism]]
 
 
 Building Blocks

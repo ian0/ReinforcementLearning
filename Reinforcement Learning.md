@@ -64,6 +64,8 @@ Here we describe the standard problem setup of reinforcement learning.
 
 ### [[Game Theory]]
 
+### [[Multi-Agent Systems]]
+
 ### Model
 
 Model is the representation of how the agent thinks the environment works. It consists of:

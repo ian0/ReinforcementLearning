@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Agent Cooperation.md",
+            "file": "Multi-Agent Systems.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "formali",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agent Cooperation.md",
+                "file": "Multi-Agent Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +88,15 @@
   },
   "active": "4e1b53626dbee539",
   "lastOpenFiles": [
-    "Agent Cooperation.md",
-    "Game Theory.md",
+    "Multi-Agent Systems.md",
+    "Reinforcement Learning.md",
+    "Auctions.md",
+    "Agent.md",
     "Mechanism Design.md",
-    "Nash Equilibrium.md",
-    "Untitled.md",
-    "Non Zero Sum.md",
-    "Zero Sum Game.md",
-    "Prisioners Dilema.md",
-    "Iterated Prisoner’s Dilemma.md",
-    "Tragedy of the commons.md"
+    "Untitled 1.md",
+    "Value Iteration.md",
+    "State Action Space Formalism.md",
+    "Markov Decision Process.md",
+    "Exploration vs Exploitation.md"
   ]
 }
