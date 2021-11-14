@@ -15,3 +15,5 @@ The other vendor then has to move their ice cream cart to ensure they get an eve
 More formally, if you have a set n players with each player having a strategy S1 ...Sn then we know that the strategies are in Nash equilibrium, if and only if you randomly chose one of the players and gave them the chance to switch their strategy, they would have no reason to do it in a world where all other strategies remain the same.
 
 If you have an N repeated games, the outome is N repeated Nash equilibrum.  If you have multiple Nash equilibrim how do you choose which one?
+
+[[Keynes Beauty Contest Game]]
